@@ -1,5 +1,6 @@
 import Person from './person';
-require("./style.css");
+import { hogeHoge } from './style.css';
+// require("./style.css"); // Also it works with this code.
 
 class Friend extends Person{
 	constructor(name) {
